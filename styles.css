@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+table {
+    border: 1px solid #DDDDDD;
+}
+
+.thead {
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+}
+
+.posicao-A {
+    color: #003366;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.posicao-B {
+    color: #1398BE;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.posicao-C {
+    color: #DE9800;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.posicao-D {
+    color: #CCCCCC;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.posicao-E {
+    color: #C91B04;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.time {
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+}
+
+.points {
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.P {
+    background-color: #F7F7F7;
+}
+
+tbody td {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    font-size: 10px;
+    color: #8F8F8F;
+    text-align: left;
+    list-style: none;
+}
+
+.list-item {
+    display: flex;
+    margin-right: 10px;
+}
+
+.list-icon1 {
+    background-color: #003366;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.list-icon2 {
+    background-color: #1398BE;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.list-icon3 {
+    background-color: #DE9800;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.list-icon4 {
+    background-color: #C91B04;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.legend {
+    display: flex;
+    list-style: none;
+}
+
+.legend-icon {
+    font-size: 10px;
+    color: #555555;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 3px;
+}
+
+.legend-meaning {
+    font-size: 10px;
+    color: #555555;
+    text-align: left;    
+    margin-right: 10px;
+}
