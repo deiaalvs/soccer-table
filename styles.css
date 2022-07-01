@@ -1,15 +1,50 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     font-family: Arial;
 }
 
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+
 table {
     border: 1px solid #DDDDDD;
+    width: 100%;
+    height: 98vh;
+    margin-top: 5px;
+    position: relative;
+    border-collapse: collapse;
+}
+
+tbody {
+    position: absolute;
+}
+
+.P {
+    background-color: #F7F7F7;
+}
+
+tbody td {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    width: 50px;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 2.8px 0;
+}
+
+.headers {
+    width: 40px;
+}
+
+.times {
+    padding-right: 150px;
 }
 
 .thead {
@@ -17,6 +52,8 @@ table {
     color: #999999;
     font-weight: bold;
     text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #DDDDDD;
 }
 
 .posicao-A {
@@ -24,6 +61,7 @@ table {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+    border-top: 1px solid #ddd;
 }
 
 .posicao-B {
@@ -31,6 +69,10 @@ table {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+}
+
+.group {
+    border-bottom: 2px solid #CCCCCC;
 }
 
 .posicao-C {
@@ -59,6 +101,7 @@ table {
     color: #666666;
     font-weight: bold;
     text-align: left;
+    border-top: 1px solid #ddd;
 }
 
 .points {
@@ -68,15 +111,6 @@ table {
     text-align: center;
 }
 
-.P {
-    background-color: #F7F7F7;
-}
-
-tbody td {
-    font-size: 14px;
-    color: #666666;
-    text-align: center;
-}
 
 .list {
     display: flex;
@@ -84,6 +118,7 @@ tbody td {
     color: #8F8F8F;
     text-align: left;
     list-style: none;
+    margin-left: 5px;
 }
 
 .list-item {
@@ -126,6 +161,7 @@ tbody td {
 .legend {
     display: flex;
     list-style: none;
+    margin: 3px 0;
 }
 
 .legend-icon {
@@ -133,7 +169,7 @@ tbody td {
     color: #555555;
     font-weight: bold;
     text-align: left;
-    margin-right: 3px;
+    margin-left: 5px;
 }
 
 .legend-meaning {
@@ -141,4 +177,5 @@ tbody td {
     color: #555555;
     text-align: left;    
     margin-right: 10px;
+    margin-left: 2px;
 }
